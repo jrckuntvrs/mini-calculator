@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RELAPSE | CALCU</title>
+    <title>CALCU</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -65,13 +65,14 @@
         let input = document.getElementById("display").value;
 
         if (input.includes("*")) {
-          document.getElementById("display").value = "Miss na kita 😔";
+          document.getElementById("display").value =
+            "Pabili po ng Siomair Rice & Kinabog 😄";
         } else {
           try {
             let result = eval(input);
             document.getElementById("display").value = result;
           } catch (error) {
-            document.getElementById("display").value = "Kain ka na BOSSING 😄";
+            document.getElementById("display").value = "Kamusta BOSSING 😄";
           }
         }
       }
