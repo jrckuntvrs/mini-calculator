@@ -22,10 +22,12 @@ body {
 .calculator form .display {
   border: 0;
   outline: 0;
-  align-items: center;
-  justify-content: center;
+  width: auto;
+  height: 60px;
   margin: 8px;
   border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .calculator form input {
