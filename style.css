@@ -22,7 +22,7 @@ body {
 .calculator form .display {
   border: 0;
   outline: 0;
-  width: 94%;
+  width: 94.5%;
   height: 60px;
   margin: 8px;
   border-radius: 5px;
@@ -31,22 +31,22 @@ body {
 }
 @media screen and (max-width: 789px) {
   .calculator form .display {
-    width: auto;
+    width: 94.5%;
   }
 }
 @media screen and (max-width: 500px) {
   .calculator form .display {
-    width: auto;
+    width: 94.5%;
   }
 }
 @media screen and (max-width: 400px) {
   .calculator form .display {
-    width: auto;
+    width: 94.5%;
   }
 }
 @media screen and (max-width: 300px) {
   .calculator form .display {
-    width: auto;
+    width: 94.5%;
   }
 }
 
