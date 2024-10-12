@@ -41,12 +41,12 @@ body {
 }
 @media screen and (max-width: 400px) {
   .calculator form .display {
-    width: 90%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 300px) {
   .calculator form .display {
-    width: 90%;
+    width: 80%;
   }
 }
 
