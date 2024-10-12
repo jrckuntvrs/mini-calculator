@@ -22,11 +22,9 @@ body {
 .calculator form .display {
   border: 0;
   outline: 0;
-  width: 85%; /* Start with a slightly smaller width for larger screens */
+  width: 84%; /* Start with a slightly smaller width for larger screens */
   height: 60px;
   border-radius: 5px;
-  display: flex;
-  justify-content: flex-end;
   box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 
