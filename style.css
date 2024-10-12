@@ -22,31 +22,49 @@ body {
 .calculator form .display {
   border: 0;
   outline: 0;
-  width: 94.5%;
+  width: 94.5%; /* Start with a slightly smaller width for larger screens */
   height: 60px;
-  margin: 8px;
+  margin: 8px auto; /* Use auto for horizontal centering */
   border-radius: 5px;
   display: flex;
   justify-content: flex-end;
+  padding-right: 10px; /* Add padding inside for content spacing */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
+
+/* For screens 789px and smaller (tablets) */
 @media screen and (max-width: 789px) {
   .calculator form .display {
-    width: 94.5%;
+    width: 100%; /* Make it full width on medium-sized screens */
+    height: 50px; /* Adjust the height for better fit */
+    margin: 5px auto;
   }
 }
+
+/* For screens 500px and smaller (large phones) */
 @media screen and (max-width: 500px) {
   .calculator form .display {
-    width: 90%;
+    width: 100%; /* Take full width on phones */
+    height: 45px; /* Adjust height */
+    margin: 5px auto;
   }
 }
+
+/* For screens 400px and smaller (small phones) */
 @media screen and (max-width: 400px) {
   .calculator form .display {
-    width: 80%;
+    width: 100%; /* Full width */
+    height: 40px; /* Further reduce height */
+    margin: 5px auto;
   }
 }
+
+/* For screens 300px and smaller (very small phones) */
 @media screen and (max-width: 300px) {
   .calculator form .display {
-    width: 80%;
+    width: 100%; /* Full width */
+    height: 35px; /* Minimum height */
+    margin: 5px auto;
   }
 }
 
