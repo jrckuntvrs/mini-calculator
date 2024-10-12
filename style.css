@@ -36,17 +36,17 @@ body {
 }
 @media screen and (max-width: 500px) {
   .calculator form .display {
-    width: 94.5%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 400px) {
   .calculator form .display {
-    width: 94.5%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 300px) {
   .calculator form .display {
-    width: 94.5%;
+    width: 90%;
   }
 }
 
