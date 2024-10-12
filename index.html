@@ -65,13 +65,13 @@
         let input = document.getElementById("display").value;
 
         if (input.includes("*")) {
-          document.getElementById("display").value = "ilikeyou";
+          document.getElementById("display").value = "Hi? Kamusta? Okay kalang";
         } else {
           try {
             let result = eval(input);
             document.getElementById("display").value = result;
           } catch (error) {
-            document.getElementById("display").value = "kainkana";
+            document.getElementById("display").value = "Abot pa tayo sa pasko!";
           }
         }
       }
