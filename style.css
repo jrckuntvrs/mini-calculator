@@ -32,42 +32,6 @@ body {
   box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 
-/* For screens 789px and smaller (tablets) */
-@media screen and (max-width: 789px) {
-  .calculator form .display {
-    width: 100%; /* Make it full width on medium-sized screens */
-    height: 50px; /* Adjust the height for better fit */
-    margin: 5px auto;
-  }
-}
-
-/* For screens 500px and smaller (large phones) */
-@media screen and (max-width: 500px) {
-  .calculator form .display {
-    width: 100%; /* Take full width on phones */
-    height: 45px; /* Adjust height */
-    margin: 5px auto;
-  }
-}
-
-/* For screens 400px and smaller (small phones) */
-@media screen and (max-width: 400px) {
-  .calculator form .display {
-    width: 100%; /* Full width */
-    height: 40px; /* Further reduce height */
-    margin: 5px auto;
-  }
-}
-
-/* For screens 300px and smaller (very small phones) */
-@media screen and (max-width: 300px) {
-  .calculator form .display {
-    width: 100%; /* Full width */
-    height: 35px; /* Minimum height */
-    margin: 5px auto;
-  }
-}
-
 .calculator form input {
   border: 0;
   outline: 0;
