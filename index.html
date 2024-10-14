@@ -73,15 +73,15 @@
         let input = document.getElementById("display").value;
 
         if (input.includes("-")) {
-          document.getElementById("display").value = "Missu";
+          document.getElementById("display").value = "Missu😔";
         } else if (input.includes("*")) {
-          document.getElementById("display").value = "Ako parin ba?";
+          document.getElementById("display").value = "Ako parin ba😔?";
         } else {
           try {
             let result = eval(input);
             document.getElementById("display").value = result;
           } catch (error) {
-            document.getElementById("display").value = "Error";
+            document.getElementById("display").value = "Ikaw parin pala😔";
           }
         }
       }
