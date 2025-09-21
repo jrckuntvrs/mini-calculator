@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CALCU</title>
+    <title>RELAPSE</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="background">DELULU MINI-CALCU</div>
-    <p style="color: wheat; text-align: center">by: Jerick</p>
+    <div class="background">RELAPSE-CALCU</div>
     <div class="container">
       <div class="calculator">
         <form>
@@ -32,7 +31,7 @@
             <input type="button" value="%" onclick="display.value += '%'" />
             <input
               type="button"
-              value="CLR"
+              value="DEL"
               onclick="display.value = display.value.toString().slice(0, -1)"
             />
             <input type="button" value="/" onclick="display.value += '/'" />
@@ -69,23 +68,6 @@
       </div>
     </div>
 
-    <script>
-      function calculate() {
-        let input = document.getElementById("display").value;
-
-        if (input.includes("-")) {
-          document.getElementById("display").value = "Missu😔";
-        } else if (input.includes("*")) {
-          document.getElementById("display").value = "Ako parin ba😔?";
-        } else {
-          try {
-            let result = eval(input);
-            document.getElementById("display").value = result;
-          } catch (error) {
-            document.getElementById("display").value = "Ikaw parin pala😔";
-          }
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
